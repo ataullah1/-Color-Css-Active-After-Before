@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.containar {
+    width: 90%;
+    height: 500px;
+    background-image: linear-gradient(rgb(148, 14, 238), rgb(252, 36, 144));
+    margin: 90px auto;
+    border-radius: 30px;
+}
+
+.fast-box {
+    width: 70%;
+    height: 100%;
+    /* background-color: yellow; */
+    margin: auto;
+}
+
+.text {
+    text-align: center;
+    padding-top: 170px;
+    /* background-color: aqua; */
+}
+
+.text-nadim {
+    background-color: tomato;
+    height: 180px;
+    width: 60%;
+    margin: auto;
+    box-shadow: 13px -4px 10px 0px rgb(74 255 3);
+    border-radius: 0px 50px 0px 50px;
+}
+
+.text-nadim h2 {
+    font-size: 40px;
+    padding-top: 20px;
+    color: springgreen;
+}
+
+.text-nadim h2::after {
+    content: "ATAULLAh";
+    color: turquoise;
+    font-style: italic;
+}
+
+.text-nadim p {
+    font-size: 25px;
+    text-transform: capitalize;
+    padding: 15px;
+    color: rgb(18, 247, 87);
+}
+
+.text-nadim p::after {
+    content: ' Please';
+    color: rgb(247, 166, 16);
+    font-style: italic;
+}
+
+.text-nadim p::before {
+    content: "Do you ";
+    color: rgb(255, 167, 5);
+    font-style: italic;
+}
+
+.text-nadim a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(236, 236, 236);
+    background-color: rgb(175, 10, 252);
+    padding: 10px 22px;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.text-nadim a:hover {
+    background-color: rgba(247, 35, 229, 0.877);
+    color: turquoise;
+}
+
+.text-nadim a:focus {
+    color: rgb(26, 14, 12);
+    font-size: 25px;
+}
+
+.text-nadim a:active {
+    color: rgb(24, 12, 17);
+}
